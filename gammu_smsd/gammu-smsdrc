@@ -1,0 +1,9 @@
+[gammu]
+device = /dev/ttyUSB2
+connection = at
+
+[smsd]
+service = files
+logfile = /var/log/gammu/smsd.log
+debuglevel = 0
+RunOnReceive = /data/incoming.sh
