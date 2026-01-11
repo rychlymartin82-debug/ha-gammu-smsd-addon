@@ -1,0 +1,16 @@
+{
+  "name": "Gammu SMSD",
+  "version": "1.0.0",
+  "slug": "gammu_smsd",
+  "description": "Lightweight SMS gateway using Gammu SMSD",
+  "startup": "services",
+  "boot": "auto",
+  "arch": ["aarch64", "armv7", "amd64", "i386"],
+  "host_network": true,
+  "options": {},
+  "schema": {},
+  "ports": {},
+  "ports_description": {},
+  "map": ["config:rw", "share:rw"],
+  "init": false
+}
